@@ -1,12 +1,11 @@
 {
-  "name": "angular-star-rating",
+  "name": "levon-angular-star-rating",
   "description": "Angular Star Rating is a Angular2 component written in typescript.",
   "version": "3.0.0",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
     "test": "npm run tsc && karma start",
-    "prepublish": "npm run tsc",
     "tsc": "npm run deleteDist && tsc && npm run copyAssets",
     "deleteDist": "rimraf dist",
     "copyAssets": "copyfiles assets/**/* dist",
